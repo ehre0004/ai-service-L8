@@ -5,6 +5,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 import os
 
+# FastAPI
 app = FastAPI(version=os.environ.get("APP_VERSION", "0.1.0"))
 app.include_router(description)
 app.include_router(image)
