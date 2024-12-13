@@ -8,8 +8,8 @@ Host: localhost:5001
 Content-Type: application/json
 
 {
-    "name": "Seafarer's Tug Rope",
-    "tags": ["toy","dog"]
+    "name": "Monitor",
+    "tags": ["computer monitor","120 fps"]
 }
 
 ### Generate product image
